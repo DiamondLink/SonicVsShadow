@@ -1,4 +1,4 @@
-# SonicVsShadown
+# SonicVsShadow
 
 I had to make a game for a school project, here it is !
 
