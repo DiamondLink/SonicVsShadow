@@ -1,0 +1,214 @@
+/*CSS*/
+
+/*BACKGROUND*/
+html{
+  background: url(../sprites/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*BACKGOUND*/
+
+/*SONIC*/
+.sonic{
+    position: absolute;
+    background-color: transparent;
+    top: 18%;
+    left:10%;
+    height: 200px;
+    width: 200px;
+}
+
+.sonic img{
+  min-width: 50%;
+  min-height: 50%;
+  max-width: 400%;
+  max-height: 400%;
+  margin: auto;
+  display: block;
+  background-color: transparent;
+}
+/*SONIC*/
+
+/*SHADOW*/
+.shadow{
+    position: absolute;
+    background-color:transparent;
+    top: 13%;
+    left:70%;
+    height: 150px;
+    width: 150px;
+}
+
+.shadow img{
+  min-width: 50%;
+  min-height: 50%;
+  max-width: 400%;
+  max-height: 400%;
+  margin: auto;
+  display: block;
+  background-color: transparent;
+}
+/*SHADOW*/
+/*BUTTONS*/
+.buttons{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 19px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+  
+.buttons:hover{
+    background-color: black;
+    color: white;
+}
+/*BUTTONS*/
+
+/*PROJECTILES*/
+.fireball{
+  position: absolute;
+  background-color: white;
+  top: 22%;
+  left:0%;
+  height: 200px;
+  width: 200px;
+  background-color: transparent;
+  border: none;
+  display: none;
+}
+.fireball img{
+min-width: 50%;
+min-height: 50%;
+max-width: 85%;
+max-height: 85%;
+margin: auto;
+display: block;
+background-color: transparent;
+border: none;
+}
+
+.iceball{
+  position: absolute;
+  background-color: white;
+  top: 18%;
+  left:0%;
+  height: 200px;
+  width: 200px;
+  background-color: transparent;
+  border: none;
+  display: none;
+}
+
+.iceball img{
+min-width: 50%;
+min-height: 50%;
+max-width: 600%;
+max-height: 600%;
+margin: auto;
+display: block;
+background-color: transparent;
+border: none;
+}
+/*PROJECTILE*/
+/*LIFEPOINT*/
+
+.lifepoint{
+  position: absolute;
+  width: 80px;
+  height: 40px;
+  border: 2px solid rgb(70, 67, 67);
+  color: white;
+  background-color: green;
+  font-size: 22px;
+}
+/*LIFEPOINT*/
+
+/*WIN MESSAGE*/
+.winMessage {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 154px;
+  top: 5%;
+  left: 40%;
+  padding: 30px;
+  overflow: hidden;
+  border: 3px solid;
+  -webkit-border-radius: 17px / 44px;
+  border-radius: 17px / 44px;
+  font: normal 16px/1 Verdana, Geneva, sans-serif;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: #3093ba;
+  position: absolute;
+  display: none;
+  font-size: large;
+}
+/*WIN MESSAGE*/
+
+/*PLAY AGAIN*/
+.playAgain{
+  position: absolute;
+  font: normal 16px/1 Verdana, Geneva, sans-serif;
+  width: 160px;
+  height: 50px;
+  border: 2px solid rgb(70, 67, 67);
+  color: black;
+  background-color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  top: 70%;
+  left: 40%;
+  display: none;
+}
+
+.playAgain:hover{
+  background-color: black;
+  color: white;
+}
+/*PLAY AGAIN*/
+
+/*MENU BUTTONS*/
+.menuButtons{
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  background-color: green;
+  border-radius: 10px;
+  border: 3px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+}
+
+.menuButtons:hover{
+  background-color: white;
+  color: green;
+  border: 3px solid green;
+}
+/*MENU BUTTONS*/
+
+/*TITRE*/
+.title{
+  position: absolute;
+  font-size: 80px;
+  top: 10%;
+  left: 28%;
+}
+/*TITRE*/
